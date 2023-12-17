@@ -4,6 +4,9 @@ Reset : string "Aperte Espaco Para Resetar"
 Vazio : string "                          "
 Selecionador : var #1
 Vez : var #1;
+Controles : string "Controles:"
+Movimentacao : string "Selecionar - 1 a 9"
+Colocar : string "Efetuar Jogada - Enter "
 
 main:
   loadn r0, #0
@@ -323,13 +326,75 @@ ImprimeTitulo:
   loadn r3, #'\0'
   cmp r2, r3
   jne LoopImprimeMsg
-  
+
   pop r3
   pop r2
   pop r1
   pop r0
   
+  push r0
+  push r1
+  push r2
+  push r3
+  loadn r0, #Controles
+  loadn r1, #841
+  loadi r2, r0
+  LoopImprimeMsg2 :
+  outchar r2, r1
+  inc r1
+  inc r0
+  loadi r2, r0
+  loadn r3, #'\0'
+  cmp r2, r3
+  jne LoopImprimeMsg2
+  pop r3
+  pop r2
+  pop r1
+  pop r0
+  
+  push r0
+  push r1
+  push r2
+  push r3
+  loadn r0, #Movimentacao
+  loadn r1, #881
+  loadi r2, r0
+  LoopImprimeMsg3 :
+  outchar r2, r1
+  inc r1
+  inc r0
+  loadi r2, r0
+  loadn r3, #'\0'
+  cmp r2, r3
+  jne LoopImprimeMsg3
+  pop r3
+  pop r2
+  pop r1
+  pop r0
+  
+    push r0
+  push r1
+  push r2
+  push r3
+  loadn r0, #Colocar
+  loadn r1, #921
+  loadi r2, r0
+  LoopImprimeMsg4 :
+  outchar r2, r1
+  inc r1
+  inc r0
+  loadi r2, r0
+  loadn r3, #'\0'
+  cmp r2, r3
+  jne LoopImprimeMsg4
+  pop r3
+  pop r2
+  pop r1
+  pop r0
+  
+  
 rts
+
 
 ImprimeReset:
   push r0
