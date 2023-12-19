@@ -9,7 +9,7 @@ Este repositório contém a implementação de um Jogo da Velha em linguagem de 
 - **Modo de dois jogadores:** Permite que dois jogadores participem alternadamente, escolhendo suas posições no tabuleiro.
 - **Verificação de vitória:** O jogo verifica automaticamente se um jogador venceu ao preencher uma linha, coluna ou diagonal.
 - **Empate:** O jogo reconhece quando não há mais movimentos possíveis, declarando um empate.
-- **Interface simples:** Utiliza a console de texto para entrada e exibição do tabuleiro.
+- **Interface simples:** Utiliza a interface básica no Sublime Text 3.
 
 ## Requisitos
 
