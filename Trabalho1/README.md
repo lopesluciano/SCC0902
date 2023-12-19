@@ -1,31 +1,28 @@
-# Jogo da Velha em Assembly
+# 🎮 Jogo da Velha em Assembly
 
-Link do vídeo de apresentação: 
-[Clique aqui!](https://drive.google.com/file/d/191DkdThFAEidW88KjQPIW5Vm9Q7he38d/view?usp=drive_link)
+**Link do vídeo de apresentação:** [Clique aqui!](https://drive.google.com/file/d/191DkdThFAEidW88KjQPIW5Vm9Q7he38d/view?usp=drive_link)
 
-
-## Descrição do Projeto
+## 📜 Descrição do Projeto
 
 Este repositório contém a implementação de um Jogo da Velha em linguagem de montagem (Assembly). O jogo é uma versão simples do clássico, projetado para explorar conceitos de programação de baixo nível.
 
-## Funcionalidades
+## 🎯 Funcionalidades
 
 - **Modo de dois jogadores:** Permite que dois jogadores participem alternadamente, escolhendo suas posições no tabuleiro.
 - **Verificação de vitória:** O jogo verifica automaticamente se um jogador venceu ao preencher uma linha, coluna ou diagonal.
 - **Empate:** O jogo reconhece quando não há mais movimentos possíveis, declarando um empate.
 - **Interface simples:** Utiliza a interface básica no Sublime Text 3.
 
-## Requisitos
+## 📋 Requisitos
 
 Certifique-se de ter um ambiente de desenvolvimento Assembly configurado. Este projeto foi desenvolvido com base em [insira o nome da arquitetura ou plataforma aqui], utilizando o [insira o nome do assembler aqui]. Consulte a documentação específica para configurar seu ambiente.
 
-## Como rodar
+## ▶️ Como Rodar
 
 Utilize o Sublime Text 3, compilando com a tecla F7
 
-## Como Jogar
+## 🎮 Como Jogar
 
-1. Selecione um número de 1 a 9 para selecionar alguma casa.
-2. Pressione "Enter" para efetuar a jogada
+1. Selecione um número de 1 a 9 para escolher uma casa.
+2. Pressione "Enter" para efetuar a jogada.
 3. Pressione espaço para recomeçar
-
