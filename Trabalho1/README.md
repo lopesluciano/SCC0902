@@ -1,5 +1,9 @@
 # Jogo da Velha em Assembly
 
+Link do vídeo de apresentação: 
+[Clique aqui!](https://drive.google.com/file/d/191DkdThFAEidW88KjQPIW5Vm9Q7he38d/view?usp=drive_link)
+
+
 ## Descrição do Projeto
 
 Este repositório contém a implementação de um Jogo da Velha em linguagem de montagem (Assembly). O jogo é uma versão simples do clássico, projetado para explorar conceitos de programação de baixo nível.
